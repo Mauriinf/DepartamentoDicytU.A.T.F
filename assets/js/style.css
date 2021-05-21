@@ -1,0 +1,61 @@
+/* # cambiar estilo a error
+============================================*/
+.controls > .error {
+    color: #b94a48;
+    display: inline-block;
+    *display: inline;
+    padding-left: 5px;
+    vertical-align: middle;
+    *zoom: 1;
+}
+/* # estilo de pagina
+============================================*/
+.container  {
+    width: 650px;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+}
+.wrap{
+	width: 100%;
+	max-width: 1000px;
+	color: #FFFFFF;
+	/*margin:auto;*/
+}
+.widget{
+	width: 100%;
+	margin: 0em;
+	/*margin: 32px;*/
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+.fecha {
+	font-family: Oswald, Arial;
+	text-align: center;
+	font-size: 2.5em;
+	margin-bottom: 0.3125rem;
+	/*margin-bottom: 5px;
+	background: rgba(0,0,0,.2);*/
+	background: rgba(0,102,51,.8);
+	padding: 10px;
+	width: 100%;
+}
+.reloj {
+	font-family: Oswald, Arial;
+	width: 100%;
+	padding: 10px;
+	font-size: 4em;
+	text-align: center;
+	/*background: rgba(0,0,0,.2);*/
+	background: rgba(0,102,51,.8);
+}
+.reloj .caja-segundos {
+	display: inline-block;
+}
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 2rem;
+}

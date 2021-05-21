@@ -1,0 +1,1 @@
+<p><strong>Nombre de la Facultad: </strong><?php echo $datos->nombre_facultad;?></p>

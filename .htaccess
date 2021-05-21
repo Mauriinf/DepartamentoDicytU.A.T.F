@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.html index.php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|uploads|robots\.txt)
+php_value memory_limit 10024M
+php_value upload_max_filesize 10024M 
+php_value post_max_size 10024M 
+php_value max_execution_time 0 
+php_value max_input_time 0 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /uatf_dicyt/index.php/$1 [L,QSA]
